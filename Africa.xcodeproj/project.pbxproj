@@ -11,6 +11,7 @@
 		2BE0AB3827AEABCF003FC33C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE0AB3727AEABCF003FC33C /* ContentView.swift */; };
 		2BE0AB3A27AEABD0003FC33C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB3927AEABD0003FC33C /* Assets.xcassets */; };
 		2BE0AB3D27AEABD0003FC33C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB3C27AEABD0003FC33C /* Preview Assets.xcassets */; };
+		2BE0AB4527AEB18A003FC33C /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB4427AEB18A003FC33C /* cheetah.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2BE0AB3727AEABCF003FC33C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BE0AB3927AEABD0003FC33C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE0AB3C27AEABD0003FC33C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BE0AB4427AEB18A003FC33C /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		2BE0AB3427AEABCF003FC33C /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				2BE0AB4327AEB129003FC33C /* Video */,
 				2BE0AB3527AEABCF003FC33C /* AfricaApp.swift */,
 				2BE0AB3727AEABCF003FC33C /* ContentView.swift */,
 				2BE0AB3927AEABD0003FC33C /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				2BE0AB3C27AEABD0003FC33C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BE0AB4327AEB129003FC33C /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				2BE0AB4427AEB18A003FC33C /* cheetah.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				2BE0AB3D27AEABD0003FC33C /* Preview Assets.xcassets in Resources */,
 				2BE0AB3A27AEABD0003FC33C /* Assets.xcassets in Resources */,
+				2BE0AB4527AEB18A003FC33C /* cheetah.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
