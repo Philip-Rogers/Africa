@@ -16,6 +16,8 @@
 		2BE0AB4B27AEB20C003FC33C /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB4727AEB20C003FC33C /* gorilla.mp4 */; };
 		2BE0AB4C27AEB20C003FC33C /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB4827AEB20C003FC33C /* hippo.mp4 */; };
 		2BE0AB4D27AEB20C003FC33C /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB4927AEB20C003FC33C /* elephant.mp4 */; };
+		2BE0AB4F27AEB2E2003FC33C /* lioness.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB4E27AEB2E2003FC33C /* lioness.mp4 */; };
+		2BE0AB5127AEB2F5003FC33C /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2BE0AB5027AEB2F5003FC33C /* lion.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		2BE0AB4727AEB20C003FC33C /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
 		2BE0AB4827AEB20C003FC33C /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
 		2BE0AB4927AEB20C003FC33C /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		2BE0AB4E27AEB2E2003FC33C /* lioness.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lioness.mp4; sourceTree = "<group>"; };
+		2BE0AB5027AEB2F5003FC33C /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		2BE0AB4327AEB129003FC33C /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				2BE0AB5027AEB2F5003FC33C /* lion.mp4 */,
+				2BE0AB4E27AEB2E2003FC33C /* lioness.mp4 */,
 				2BE0AB4927AEB20C003FC33C /* elephant.mp4 */,
 				2BE0AB4627AEB20B003FC33C /* giraffe.mp4 */,
 				2BE0AB4727AEB20C003FC33C /* gorilla.mp4 */,
@@ -155,6 +161,8 @@
 				2BE0AB4D27AEB20C003FC33C /* elephant.mp4 in Resources */,
 				2BE0AB4C27AEB20C003FC33C /* hippo.mp4 in Resources */,
 				2BE0AB4527AEB18A003FC33C /* cheetah.mp4 in Resources */,
+				2BE0AB5127AEB2F5003FC33C /* lion.mp4 in Resources */,
+				2BE0AB4F27AEB2E2003FC33C /* lioness.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
