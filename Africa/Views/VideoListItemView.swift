@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct                     VideoListItemView: View {
+struct VideoListItemView: View {
     // MARK: - PROPERTIES
     
     let video: Video
