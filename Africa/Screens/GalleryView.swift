@@ -45,7 +45,7 @@ struct GalleryView: View {
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
-                    .overlay(Circle().stroke(Color.accentColor, lineWidth: 4))
+                    .overlay(Circle().stroke(Color.white, lineWidth: 8))
                 
                 // MARK: - SLIDER
                 
@@ -63,14 +63,14 @@ struct GalleryView: View {
                             .resizable()
                             .scaledToFit()
                             .clipShape(Circle())
-                            .overlay(Circle().stroke(Color.accentColor, lineWidth: 1))
+                            .overlay(Circle().stroke(Color.white, lineWidth: 1))
                             .onTapGesture {
                                 selectedAnimal = item.image
                                 haptics.impactOccurred()
                             }
                     } //: LOOP
                 } //: GRID
-                .animation(.easeIn)
+                .animation(.easeIn, value: gridColumn)
                 .onAppear(perform: {
                     gridSwitch()
                 })
